@@ -1,2 +1,3 @@
+<input bindinput="url" type="text" maxlength="300" cursor-spacing="10" placeholder="请求URL" value="{{urlValue}}"></input>
 <button bindtap="http">http</button>
 <text>{{ result }}</text>

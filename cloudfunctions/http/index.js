@@ -9,7 +9,7 @@ cloud.init()
 exports.main = async (event, context) => {
     // npm i got@9.6.0 --save 
     // got新版的js文件在云函数端无法正常解析语法function*，可能是因为云函数端的nodejs版本较低。所以得使用9.6.0版本
-    const getResponse = await got('https://api.github.com/users/aquanlerou')
+    const getResponse = await got(event.url)
 
     return getResponse.body
 
