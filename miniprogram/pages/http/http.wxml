@@ -1,2 +1,2 @@
-<!--pages/http/http.wxml-->
-<text>pages/http/http.wxml</text>
+<button bindtap="http">http</button>
+<text>{{ result }}</text>

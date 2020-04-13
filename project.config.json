@@ -2,7 +2,7 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"enhance": true,
 		"postcss": true,
@@ -10,6 +10,8 @@
 		"newFeature": true,
 		"coverView": true,
 		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
 		"uglifyFileName": true,
 		"checkInvalidKey": true,
 		"checkSiteMap": true,
@@ -18,9 +20,7 @@
 			"ignore": [],
 			"disablePlugins": [],
 			"outputPath": ""
-		},
-		"showShadowRootInWxmlPanel": true,
-		"scopeDataCheck": false
+		}
 	},
 	"appid": "wxe0face0d131e0bd2",
 	"projectname": "miniprogram-cloud-development",
@@ -61,6 +61,13 @@
 					"id": 1,
 					"name": "MySQL",
 					"pathName": "pages/mysql/mysql",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "HTTP",
+					"pathName": "pages/http/http",
 					"query": "",
 					"scene": null
 				}
